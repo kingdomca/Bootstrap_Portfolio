@@ -1,0 +1,163 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+
+body {
+  background: radial-gradient(circle,rgb(206, 239, 245) 0%, rgb(233, 255, 242) 90%);
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+div {
+  font-size: 15px;
+}
+
+ul {
+  margin-left: 10px;
+}
+
+#header {
+  display: block;
+  width: 100%;
+  background: rgb(230,230,230);
+  align-items: center;
+  margin: 0% 0% 2% 0%;
+}
+
+.project_image {
+  width: 75%;
+}
+
+.option {
+  display: inline-block;
+  width: 10%;
+  color: black;
+  border: transparent;
+  text-decoration: none;
+  margin: 0% 1% 0% 1%;
+  font-weight: 200;
+  font-size: 20px;
+  text-align: center;
+}
+
+#logo {
+  color: black;
+  font-size: 30px;
+  font-weight: 800;
+  display: inline-block;
+  margin: 1% 7% 1% 3%;
+  text-align: center;
+}
+
+.tcontainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-items: 'center';
+  flex-direction: row;
+}
+
+.tcell {
+  box-sizing: border-box;
+  flex-grow: 1;
+  overflow: hidden;
+  border: transparent;
+  text-align: justify;
+  display: flex;
+}
+
+.t_2col > .tcell {
+  width: 50%;
+}
+
+@media (max-width: 850px) {
+  .option {
+    width: 45%;
+  }
+}
+
+@media (max-width: 850px) {
+  #logo {
+    text-align: center;
+    display: block;
+  }
+}
+
+@media (max-width: 850px) {
+  .t_2col > .tcell {
+    width: 100%;
+  }
+}
+
+.option:hover {
+  color: rgb(63, 133, 63);
+}
+
+#about_head1 {
+  margin: 20px 0px 40px 0px;
+  color: navy;
+  background: transparent;
+  mix-blend-mode: light;
+  text-shadow: 0 0 2px white;
+  font-size: 60px;
+  text-align: center;
+  font-weight: 800;
+  display: block;
+}
+
+#about_head2 {
+  margin: 20px 0px;
+  width: 100%;
+  background: linear-gradient(90deg, #f890b8,#ff8534, #ec41ec, #f8e325);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+  font-size: 75px;
+  text-align: center;
+  font-weight: 800;
+  display: block;
+}
+
+#project_title {
+  margin: 0px 0px 50px 0px;
+  font-size: 30px;
+  text-align: center;
+  font-weight: 800;
+  display: block;
+}
+
+div.subtitle {
+  vertical-align: top;
+  display: inline-block;
+  text-align: center;
+  width: 100%;
+}
+
+#resume_top {
+  text-align: center;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.resume_heading {
+  text-align: left;
+  font-weight: bold;
+  font-size: 30px;
+  color: rgb(138, 206, 37);
+  text-decoration: underline;
+  margin: 20px 0px;
+}
+
+.resume_subheading {
+  text-align: left;
+  font-weight: bold;
+  font-size: 17px;
+  color: rgb(113, 147, 241);
+  margin: 15px 0px;
+}
+
+#whole_resume {
+  margin: 5% 10%;
+}
+
